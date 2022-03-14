@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale Conosco</title>
+  </head>
+  <body>
+    <header>
+      <h1>Fale com a Devaria através dessa página</h1>
+      <nav>
+        <ul>
+          <li><a href="../Home/index.html">Home</a></li>
+          <li><a href="./index.html">Professores</a></li>
+          <li><a href="../FaleConosco/index.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>
+        Para mandar uma mensagem para a Devaria preencha abaixo e clique em
+        enviar
+      </h2>
+      <section>
+        <form action="../Home/index.html">
+          <p>
+            <label for="name">Nome</label
+            ><input type="text" name="name" id="name" maxlength="70" />
+          </p>
+          <p>
+            <label for="email">E-mail</label
+            ><input type="text" name="email" id="email" maxlength="150" />
+          </p>
+          <p>
+            <label for="comentario">Comentário</label>
+            <textarea
+              name="comentario"
+              id="comentario"
+              cols="50"
+              rows="4"
+              maxlength="250"
+              required="true"
+            ></textarea>
+          </p>
+          <p>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="F" id="F" />
+            <label for="F">Feminino</label>
+            <input type="radio" name="M" id="M" />
+            <label for="M">Masculino</label>
+          </p>
+          <p>
+            <label for="select">Onde você encontrou a Devaria:</label>
+            <select name="select" id="select">
+              <option value="google" selected>Google</option>
+              <option value="youtube">Youtube</option>
+              <option value="github">Github</option>
+            </select>
+          </p>
+          <p>
+            <input type="checkbox" name="aceite" id="aceite" value="aceite" />
+            <label for="aceite">Aceito receber novidades da Devaria !</label>
+          </p>
+          <p>
+            <input type="button" value="submit" name="Enviar" value="enviar" />
+            <input type="reset" name="reset" value="Limpar" />
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <span>Email: Felipe726silva@gmail.com</span><br />
+        <span
+          >Confira os outros projetos no
+          <a href="https://github.com/feliper-silva" target="blanck"
+            >Github</a
+          ></span
+        >
+      </section>
+    </footer>
+  </body>
+</html>
